@@ -21,6 +21,9 @@ export default function Layout() {
             <Link to="/local-stroage">LocalStorage</Link>
           </li>
           <li>
+            <Link to="local-body-scroll">LockBodySCroll</Link>
+          </li>
+          <li>
             <Link to="/dark-mode">DarkMode</Link>
           </li>
         </ul>

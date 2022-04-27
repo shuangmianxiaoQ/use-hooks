@@ -5,6 +5,7 @@ import {
   DarkMode,
   EventListener,
   LocalStorage,
+  LockBodyScroll,
   Toggle,
   WhyDidYouUpdate
 } from "./components";
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="event-listener" element={<EventListener />} />
         <Route path="why-did-you-update" element={<WhyDidYouUpdate />} />
         <Route path="local-stroage" element={<LocalStorage />} />
+        <Route path="local-body-scroll" element={<LockBodyScroll />} />
         <Route path="dark-mode" element={<DarkMode />} />
       </Route>
     </Routes>
