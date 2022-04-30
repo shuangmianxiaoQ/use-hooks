@@ -4,6 +4,7 @@ import {
   Async,
   DarkMode,
   EventListener,
+  History,
   Hover,
   LocalStorage,
   LockBodyScroll,
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="local-body-scroll" element={<LockBodyScroll />} />
         <Route path="previous" element={<Previous />} />
         <Route path="on-click-outside" element={<OnClickOutside />} />
+        <Route path="history" element={<History />} />
       </Route>
     </Routes>
   );

@@ -35,6 +35,9 @@ export default function Layout() {
           <li>
             <Link to="/hover">Hover</Link>
           </li>
+          <li>
+            <Link to="/history">History</Link>
+          </li>
         </ul>
       </nav>
 
