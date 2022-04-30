@@ -4,8 +4,10 @@ import {
   Async,
   DarkMode,
   EventListener,
+  Hover,
   LocalStorage,
   LockBodyScroll,
+  OnClickOutside,
   Previous,
   Toggle,
   WhyDidYouUpdate
@@ -18,11 +20,13 @@ export default function App() {
         <Route index element={<Toggle />} />
         <Route path="async" element={<Async />} />
         <Route path="event-listener" element={<EventListener />} />
+        <Route path="hover" element={<Hover />} />
         <Route path="why-did-you-update" element={<WhyDidYouUpdate />} />
         <Route path="local-stroage" element={<LocalStorage />} />
         <Route path="dark-mode" element={<DarkMode />} />
         <Route path="local-body-scroll" element={<LockBodyScroll />} />
         <Route path="previous" element={<Previous />} />
+        <Route path="on-click-outside" element={<OnClickOutside />} />
       </Route>
     </Routes>
   );

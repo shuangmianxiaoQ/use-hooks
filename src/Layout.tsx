@@ -29,6 +29,12 @@ export default function Layout() {
           <li>
             <Link to="/previous">Previous</Link>
           </li>
+          <li>
+            <Link to="/on-click-outside">OnClickOutside</Link>
+          </li>
+          <li>
+            <Link to="/hover">Hover</Link>
+          </li>
         </ul>
       </nav>
 
