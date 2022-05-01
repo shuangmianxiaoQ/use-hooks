@@ -7,5 +7,6 @@ export { default as LocalStorage } from "./LocalStorage";
 export { default as LockBodyScroll } from "./LockBodyScroll";
 export { default as OnClickOutside } from "./OnClickOutside";
 export { default as Previous } from "./Previous";
+export { default as Script } from "./Script";
 export { default as Toggle } from "./Toggle";
 export { default as WhyDidYouUpdate } from "./WhyDidYouUpdate";

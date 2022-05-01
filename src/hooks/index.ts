@@ -7,5 +7,6 @@ export { default as useLocalStorage } from "./use-local-storage";
 export { default as useLockBodyScroll } from "./use-lock-body-scroll";
 export { default as useOnClickOutside } from "./use-on-click-outside";
 export { default as usePrevious } from "./use-previous";
+export { default as useScript } from "./use-script";
 export { default as useToggle } from "./use-toggle";
 export { default as useWhyDidYouUpdate } from "./use-why-did-you-update";

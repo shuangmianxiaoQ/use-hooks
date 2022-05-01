@@ -38,6 +38,9 @@ export default function Layout() {
           <li>
             <Link to="/history">History</Link>
           </li>
+          <li>
+            <Link to="/script">Script</Link>
+          </li>
         </ul>
       </nav>
 

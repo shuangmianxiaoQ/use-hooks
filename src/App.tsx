@@ -10,6 +10,7 @@ import {
   LockBodyScroll,
   OnClickOutside,
   Previous,
+  Script,
   Toggle,
   WhyDidYouUpdate
 } from "./components";
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="previous" element={<Previous />} />
         <Route path="on-click-outside" element={<OnClickOutside />} />
         <Route path="history" element={<History />} />
+        <Route path="script" element={<Script />} />
       </Route>
     </Routes>
   );
