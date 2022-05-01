@@ -41,6 +41,9 @@ export default function Layout() {
           <li>
             <Link to="/script">Script</Link>
           </li>
+          <li>
+            <Link to="/key-press">KeyPress</Link>
+          </li>
         </ul>
       </nav>
 

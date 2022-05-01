@@ -1,8 +1,9 @@
 export { default as useAsync } from "./use-async";
 export { default as useDarkMode } from "./use-dark-mode";
 export { default as useEventListener } from "./use-event-listener";
-export { default as useHistory} from "./use-history";
+export { default as useHistory } from "./use-history";
 export { default as useHover } from "./use-hover";
+export { default as useKeyPress } from "./use-key-press";
 export { default as useLocalStorage } from "./use-local-storage";
 export { default as useLockBodyScroll } from "./use-lock-body-scroll";
 export { default as useOnClickOutside } from "./use-on-click-outside";

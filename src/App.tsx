@@ -6,6 +6,7 @@ import {
   EventListener,
   History,
   Hover,
+  KeyPress,
   LocalStorage,
   LockBodyScroll,
   OnClickOutside,
@@ -31,6 +32,7 @@ export default function App() {
         <Route path="on-click-outside" element={<OnClickOutside />} />
         <Route path="history" element={<History />} />
         <Route path="script" element={<Script />} />
+        <Route path="key-press" element={<KeyPress />} />
       </Route>
     </Routes>
   );

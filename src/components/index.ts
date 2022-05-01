@@ -3,6 +3,7 @@ export { default as DarkMode } from "./DarkMode";
 export { default as EventListener } from "./EventListener";
 export { default as History } from "./History";
 export { default as Hover } from "./Hover";
+export { default as KeyPress } from "./KeyPress";
 export { default as LocalStorage } from "./LocalStorage";
 export { default as LockBodyScroll } from "./LockBodyScroll";
 export { default as OnClickOutside } from "./OnClickOutside";
